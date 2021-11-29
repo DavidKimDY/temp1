@@ -3,13 +3,6 @@ UIPA_dataplatform/
 ├── LICENSE
 ├── Procfile
 ├── README.md
-├── __pycache__
-│   ├── application.cpython-36.pyc
-│   ├── application.cpython-37.pyc
-│   ├── autoapp.cpython-37.pyc
-│   ├── autoapp.cpython-38.pyc
-│   ├── autoapp.cpython-39.pyc
-│   └── test.cpython-36.pyc
 ├── app.json
 ├── application.py
 ├── assets
@@ -110,8 +103,6 @@ UIPA_dataplatform/
 ├── key.pem
 ├── migrations
 │   ├── README
-│   ├── __pycache__
-│   │   └── env.cpython-38.pyc
 │   ├── alembic.ini
 │   ├── env.py
 │   ├── script.py.mako
@@ -124,8 +115,6 @@ UIPA_dataplatform/
 │       ├── 7ce6f7b2290e_.py
 │       ├── 803f9c387ea4_.py
 │       ├── 87f559cfbf1d_.py
-│       ├── __pycache__
-│       │   └── b12571651fd8_.cpython-38.pyc
 │       ├── b10cf6d05987_.py
 │       ├── c343bfbecd53_.py
 │       ├── ce72fffa8ae7_.py
@@ -30191,55 +30180,8 @@ UIPA_dataplatform/
 ├── uipa.ini
 ├── web
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── __init__.cpython-37.pyc
-│   │   ├── __init__.cpython-38.pyc
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── app.cpython-36.pyc
-│   │   ├── app.cpython-37.pyc
-│   │   ├── app.cpython-38.pyc
-│   │   ├── app.cpython-39.pyc
-│   │   ├── commands.cpython-36.pyc
-│   │   ├── commands.cpython-38.pyc
-│   │   ├── commands.cpython-39.pyc
-│   │   ├── compat.cpython-36.pyc
-│   │   ├── compat.cpython-38.pyc
-│   │   ├── compat.cpython-39.pyc
-│   │   ├── database.cpython-36.pyc
-│   │   ├── database.cpython-38.pyc
-│   │   ├── database.cpython-39.pyc
-│   │   ├── decorators.cpython-36.pyc
-│   │   ├── decorators.cpython-38.pyc
-│   │   ├── decorators.cpython-39.pyc
-│   │   ├── extensions.cpython-36.pyc
-│   │   ├── extensions.cpython-37.pyc
-│   │   ├── extensions.cpython-38.pyc
-│   │   ├── extensions.cpython-39.pyc
-│   │   ├── settings.cpython-36.pyc
-│   │   ├── settings.cpython-37.pyc
-│   │   ├── settings.cpython-38.pyc
-│   │   ├── settings.cpython-39.pyc
-│   │   ├── utils.cpython-36.pyc
-│   │   ├── utils.cpython-38.pyc
-│   │   └── utils.cpython-39.pyc
 │   ├── admin
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-37.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── models.cpython-36.pyc
-│   │   │   ├── models.cpython-38.pyc
-│   │   │   ├── models.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-37.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   ├── models.py
 │   │   └── views.py
@@ -30247,57 +30189,18 @@ UIPA_dataplatform/
 │   ├── commands.py
 │   ├── comment
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── models.cpython-36.pyc
-│   │   │   ├── models.cpython-38.pyc
-│   │   │   ├── models.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   ├── models.py
 │   │   └── views.py
 │   ├── compat.py
 │   ├── content
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── models.cpython-36.pyc
-│   │   │   ├── models.cpython-38.pyc
-│   │   │   ├── models.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   ├── models.py
 │   │   └── views.py
 │   ├── database.py
 │   ├── dataset
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── models.cpython-36.pyc
-│   │   │   ├── models.cpython-38.pyc
-│   │   │   ├── models.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   ├── models.py
 │   │   └── views.py
@@ -30305,16 +30208,6 @@ UIPA_dataplatform/
 │   ├── extensions.py
 │   ├── public
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   └── views.py
 │   ├── settings.py
@@ -44090,22 +43983,6 @@ UIPA_dataplatform/
 │   │       └── withdrawal.html
 │   ├── user
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-36.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   ├── __init__.cpython-39.pyc
-│   │   │   ├── forms.cpython-36.pyc
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── forms.cpython-39.pyc
-│   │   │   ├── limit_login.cpython-36.pyc
-│   │   │   ├── limit_login.cpython-38.pyc
-│   │   │   ├── limit_login.cpython-39.pyc
-│   │   │   ├── models.cpython-36.pyc
-│   │   │   ├── models.cpython-38.pyc
-│   │   │   ├── models.cpython-39.pyc
-│   │   │   ├── views.cpython-36.pyc
-│   │   │   ├── views.cpython-38.pyc
-│   │   │   └── views.cpython-39.pyc
 │   │   ├── forms.py
 │   │   ├── limit_login.py
 │   │   ├── models.py
@@ -44114,4 +43991,4 @@ UIPA_dataplatform/
 │   └── webpack
 └── webpack.config.js
 
-4866 directories, 39248 files
+4856 directories, 39135 files
