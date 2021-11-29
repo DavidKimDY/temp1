@@ -1,0 +1,223 @@
+UIPA_dataplatform
+├── Dockerfile
+├── LICENSE
+├── Procfile
+├── README.md
+├── app.json
+├── application.py
+├── autoapp.py
+├── cert.pem
+├── docker-compose.yml
+├── fileupload
+│   ├── eda
+│   │   ├── 110792_EDA.html
+│   │   ├── 168208Womens_E-Commerce_Clothing_Reviews_EDA.html
+│   │   ├── 17865519_.html
+│   │   ├── 22770019_.html
+│   │   ├── 259298_EDA_.html
+│   │   ├── 342258_EDA.html
+│   │   ├── 43564219_.html
+│   │   ├── 609841_EDA.html
+│   │   ├── 77082919_.html
+│   │   ├── 925893_EDA.html
+│   │   └── 93838119_.html
+│   ├── excel
+│   │   ├── comment.xlsx
+│   │   ├── content.xlsx
+│   │   ├── dataset.xlsx
+│   │   ├── userlog.xlsx
+│   │   └── users.xlsx
+│   ├── image_dataset
+│   │   ├── CIFAR-10.zip
+│   │   ├── CIFAR-100.zip
+│   │   ├── Caltech-256.zip
+│   │   ├── Clatech-101.zip
+│   │   ├── Fashion-MNIST.zip
+│   │   ├── MNIST.zip
+│   │   ├── README.md
+│   │   ├── TextOCR.zip
+│   │   ├── beans.zip
+│   │   ├── food.zip
+│   │   └── satellite.zip
+│   ├── supervised
+│   │   ├── 239473_.html
+│   │   ├── 393930IMDB_.html
+│   │   ├── 43236Keras_MNIST_CNN.html
+│   │   ├── 800525Keras_MNIST_DNN.html
+│   │   ├── 814224Keras_Fashion-MNIST_CNN.html
+│   │   ├── 825054Prophet_.html
+│   │   ├── 832231CIFAR-10_.html
+│   │   ├── 846473fake_news_real_news_.html
+│   │   ├── 928947_.html
+│   │   └── 949184CIFAR-100_.html
+│   ├── text_dataset
+│   │   ├── IMDB.zip
+│   │   ├── README.md
+│   │   ├── Womens_Clothing_E-Commerce_Reviews.zip
+│   │   ├── culture.zip
+│   │   ├── diplomacysafety.zip
+│   │   ├── disaster.zip
+│   │   ├── movies_metadata.zip
+│   │   ├── netflix_titles.zip
+│   │   ├── news_articles.zip
+│   │   ├── serviceList.zip
+│   │   └── tour.zip
+│   ├── timeseries_dataset
+│   │   ├── README.md
+│   │   ├── apartDetail.zip
+│   │   ├── apartRent.zip
+│   │   ├── covid_foreign.zip
+│   │   ├── covid_gen.zip
+│   │   ├── covid_region.zip
+│   │   ├── covid_state.zip
+│   │   ├── covid_vaccine.zip
+│   │   ├── crime.zip
+│   │   ├── diabetes.zip
+│   │   ├── sealevel.zip
+│   │   ├── ulsan_temp_daily.zip
+│   │   └── ulsan_temp_monthly.zip
+│   ├── unsupervised
+│   │   ├── 153499mnist_PCA_t-sne.html
+│   │   ├── 247396_.html
+│   │   ├── 311403__.html
+│   │   ├── 319102_.html
+│   │   ├── 40204The_Movies_Dataset_.html
+│   │   ├── 696686GAN_keras_mnist_MLP.html
+│   │   ├── 83153__.html
+│   │   ├── 879706__.html
+│   │   ├── 93406__.html
+│   │   └── 983737_Word2Vec_.html
+│   ├── visualization
+│   │   └── cufflinks.html
+│   └── zip
+│       └── UIPA_data_platform.zip
+├── key.pem
+├── migrations
+│   ├── README
+│   ├── alembic.ini
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+│       ├── 1d2b5783817d_.py
+│       ├── 1e65fbebb2cb_.py
+│       ├── 5264927d003a_.py
+│       ├── 5345afce3606_.py
+│       ├── 57e1f95e60f5_.py
+│       ├── 7ce6f7b2290e_.py
+│       ├── 803f9c387ea4_.py
+│       ├── 87f559cfbf1d_.py
+│       ├── b10cf6d05987_.py
+│       ├── c343bfbecd53_.py
+│       ├── ce72fffa8ae7_.py
+│       ├── cf80d2dd9806_.py
+│       ├── d64df7269a74_.py
+│       ├── e31b6516aead_.py
+│       └── ea6d01cb8361_.py
+├── package-lock.json
+├── package.json
+├── pyproject.toml
+├── requirements
+│   ├── dev.txt
+│   └── prod.txt
+├── requirements.txt
+├── setup.cfg
+├── shell_scripts
+│   ├── auto_pipenv.sh
+│   └── supervisord_entrypoint.sh
+├── supervisord.conf
+├── supervisord_programs
+│   └── gunicorn.conf
+├── uipa.ini
+└── web
+    ├── __init__.py
+    ├── admin
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   └── views.py
+    ├── app.py
+    ├── commands.py
+    ├── comment
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   └── views.py
+    ├── compat.py
+    ├── content
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   └── views.py
+    ├── database.py
+    ├── dataset
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   └── views.py
+    ├── decorators.py
+    ├── extensions.py
+    ├── public
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   └── views.py
+    ├── settings.py
+    ├── templates
+    │   ├── 401.html
+    │   ├── 403.html
+    │   ├── 404.html
+    │   ├── 500.html
+    │   ├── admin
+    │   │   ├── admin_log.html
+    │   │   ├── api_keys.html
+    │   │   ├── check_admin.html
+    │   │   ├── content_code_list.html
+    │   │   ├── content_dataset_list.html
+    │   │   ├── deactive_member_list.html
+    │   │   ├── file_upload.html
+    │   │   ├── layout.html
+    │   │   ├── main.html
+    │   │   ├── member_api_usage.html
+    │   │   ├── member_list.html
+    │   │   ├── member_site_usage.html
+    │   │   ├── periodic_static.html
+    │   │   ├── register.html
+    │   │   └── user_profile.html
+    │   ├── content
+    │   │   ├── content_view.html
+    │   │   ├── eda.html
+    │   │   ├── layout.html
+    │   │   ├── machinelearning.html
+    │   │   ├── supervised.html
+    │   │   ├── unsupervised.html
+    │   │   └── visualization.html
+    │   ├── dataset
+    │   │   ├── dataset_view.html
+    │   │   ├── how_to_use_api.html
+    │   │   ├── image_dataset.html
+    │   │   ├── layout.html
+    │   │   ├── text_dataset.html
+    │   │   └── timeseries_dataset.html
+    │   ├── layout.html
+    │   ├── public
+    │   │   ├── home.html
+    │   │   ├── learn
+    │   │   │   ├── supervised_main.html
+    │   │   │   └── supervised_view.html
+    │   │   ├── register.html
+    │   │   └── search_result.html
+    │   └── users
+    │       ├── edit_password.html
+    │       ├── edit_profile.html
+    │       ├── manage_api_key.html
+    │       ├── profile.html
+    │       └── withdrawal.html
+    ├── user
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── limit_login.py
+    │   ├── models.py
+    │   └── views.py
+    ├── utils.py
+    └── webpack
+
+30 directories, 190 files
